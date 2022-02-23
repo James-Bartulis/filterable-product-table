@@ -2,6 +2,23 @@
   text-align: center;
 }
 
+.App > div {
+  width: fit-content;
+  margin: auto;
+  text-align: left;
+}
+/* makes it easier to highlight rows */
+/* compared to padding the parent */
+.App > div > * {
+  padding: 15px 20px;
+}
+.App > div > form {
+  padding-bottom: 0px;
+}
+.App > div > table {
+  padding-top: 10px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
